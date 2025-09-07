@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <ProjectGuid>{B28E8FF3-CAEE-440A-A9BB-B4A6764E4DA0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CV</RootNamespace>
+    <AssemblyName>Sebs SW CV</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>net35</TargetFramework>
+    <UseWindowsForms>True</UseWindowsForms>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Sebs SW CV.ico</ApplicationIcon>
+    <StartupObject>CV.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.Designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox11.Designer.vb">
+      <DependentUpon>AboutBox11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox12.Designer.vb">
+      <DependentUpon>AboutBox12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox13.Designer.vb">
+      <DependentUpon>AboutBox13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox14.Designer.vb">
+      <DependentUpon>AboutBox14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox15.Designer.vb">
+      <DependentUpon>AboutBox15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox16.Designer.vb">
+      <DependentUpon>AboutBox16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox17.Designer.vb">
+      <DependentUpon>AboutBox17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox18.Designer.vb">
+      <DependentUpon>AboutBox18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox18.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox19.Designer.vb">
+      <DependentUpon>AboutBox19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox19.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox20.Designer.vb">
+      <DependentUpon>AboutBox20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox20.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox21.Designer.vb">
+      <DependentUpon>AboutBox21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox21.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox22.Designer.vb">
+      <DependentUpon>AboutBox22.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox22.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox23.Designer.vb">
+      <DependentUpon>AboutBox23.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox23.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox24.Designer.vb">
+      <DependentUpon>AboutBox24.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox24.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox25.Designer.vb">
+      <DependentUpon>AboutBox25.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox25.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox3.Designer.vb">
+      <DependentUpon>AboutBox3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox5.Designer.vb">
+      <DependentUpon>AboutBox5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox7.Designer.vb">
+      <DependentUpon>AboutBox7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox8.Designer.vb">
+      <DependentUpon>AboutBox8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox9.Designer.vb">
+      <DependentUpon>AboutBox9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AP.Designer.vb">
+      <DependentUpon>AP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="backgroundBox1.Designer.vb">
+      <DependentUpon>backgroundBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="backgroundBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cmdpad.Designer.vb">
+      <DependentUpon>cmdpad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cmdpad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database1DataSet.vb" />
+    <Compile Include="Database1DataSetTableAdapters\Table1TableAdapter.vb" />
+    <Compile Include="Database1DataSetTableAdapters\TableAdapterManager.vb" />
+    <Compile Include="easycode.vb" />
+    <Compile Include="EasyCode1.vb" />
+    <Compile Include="error1.Designer.vb">
+      <DependentUpon>error1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="error1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Errorbox1.Designer.vb">
+      <DependentUpon>Errorbox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Errorbox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Explorer1.Designer.vb">
+      <DependentUpon>Explorer1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Explorer1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Explorer2.Designer.vb">
+      <DependentUpon>Explorer2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Explorer2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.vb">
+      <DependentUpon>Form10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.vb">
+      <DependentUpon>Form11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.vb">
+      <DependentUpon>Form12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.vb">
+      <DependentUpon>Form13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.vb">
+      <DependentUpon>Form14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.vb">
+      <DependentUpon>Form15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.vb">
+      <DependentUpon>Form16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17.Designer.vb">
+      <DependentUpon>Form17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form17.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.vb">
+      <DependentUpon>Form18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form18.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form19.Designer.vb">
+      <DependentUpon>Form19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form19.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1old.Designer.vb">
+      <DependentUpon>Form1old.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1old.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form1Pad.Designer.vb">
+      <DependentUpon>form1Pad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form1Pad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20.Designer.vb">
+      <DependentUpon>Form20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form20.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.vb">
+      <DependentUpon>Form21.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22.Designer.vb">
+      <DependentUpon>Form22.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form22.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form23.Designer.vb">
+      <DependentUpon>Form23.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form23.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form24.Designer.vb">
+      <DependentUpon>Form24.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form24.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form25.Designer.vb">
+      <DependentUpon>Form25.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form25.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form26.Designer.vb">
+      <DependentUpon>Form26.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form26.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form27.Designer.vb">
+      <DependentUpon>Form27.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form27.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form28.Designer.vb">
+      <DependentUpon>Form28.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form28.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form29.Designer.vb">
+      <DependentUpon>Form29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form30.Designer.vb">
+      <DependentUpon>Form30.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form30.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form31.Designer.vb">
+      <DependentUpon>Form31.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form31.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form32.Designer.vb">
+      <DependentUpon>Form32.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form32.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form33.Designer.vb">
+      <DependentUpon>Form33.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form33.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form34.Designer.vb">
+      <DependentUpon>Form34.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form34.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form35.Designer.vb">
+      <DependentUpon>Form35.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form35.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form36.Designer.vb">
+      <DependentUpon>Form36.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form36.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form37.Designer.vb">
+      <DependentUpon>Form37.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form37.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form38.Designer.vb">
+      <DependentUpon>Form38.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form38.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form39.Designer.vb">
+      <DependentUpon>Form39.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form39.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form40.Designer.vb">
+      <DependentUpon>Form40.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form40.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form41.Designer.vb">
+      <DependentUpon>Form41.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form41.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form42.Designer.vb">
+      <DependentUpon>Form42.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form42.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form43.Designer.vb">
+      <DependentUpon>Form43.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form43.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form44.Designer.vb">
+      <DependentUpon>Form44.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form44.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form45.Designer.vb">
+      <DependentUpon>Form45.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form45.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form46.Designer.vb">
+      <DependentUpon>Form46.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form46.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form47.Designer.vb">
+      <DependentUpon>Form47.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form47.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form48.Designer.vb">
+      <DependentUpon>Form48.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form48.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form49.Designer.vb">
+      <DependentUpon>Form49.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form49.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form50.Designer.vb">
+      <DependentUpon>Form50.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form50.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form51.Designer.vb">
+      <DependentUpon>Form51.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form51.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form52.Designer.vb">
+      <DependentUpon>Form52.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form52.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form53.Designer.vb">
+      <DependentUpon>Form53.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form53.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form54.Designer.vb">
+      <DependentUpon>Form54.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form54.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form55.Designer.vb">
+      <DependentUpon>Form55.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form55.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form56.Designer.vb">
+      <DependentUpon>Form56.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form56.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form57.Designer.vb">
+      <DependentUpon>Form57.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form57.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form58.Designer.vb">
+      <DependentUpon>Form58.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form58.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form60.Designer.vb">
+      <DependentUpon>Form60.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form60.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.vb">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.vb">
+      <DependentUpon>Form9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_1pad.Designer.vb">
+      <DependentUpon>Form_1pad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_1pad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ha.Designer.vb">
+      <DependentUpon>ha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loginz.Designer.vb">
+      <DependentUpon>Loginz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Loginz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My\InternalXmlHelper.vb" />
+    <Compile Include="My\MyApplication.vb" />
+    <Compile Include="My\MyComputer.vb" />
+    <Compile Include="My\MyProject.vb" />
+    <Compile Include="My\MySettings.Designer.vb">
+      <DependentUpon>MySettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="My\MySettingsProperty.vb" />
+    <Compile Include="My\Resources\Resources.vb" />
+    <Compile Include="Restartform.Designer.vb">
+      <DependentUpon>Restartform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Restartform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="seb_copy_web.Designer.vb">
+      <DependentUpon>seb_copy_web.vb</DependentUpon>
+    </Compile>
+    <Compile Include="seb_copy_web.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="theme_window.Designer.vb">
+      <DependentUpon>theme_window.vb</DependentUpon>
+    </Compile>
+    <Compile Include="theme_window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updaterform1.Designer.vb">
+      <DependentUpon>updaterform1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="updaterform1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WASD.Designer.vb">
+      <DependentUpon>WASD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WASD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox11.resx">
+      <DependentUpon>AboutBox11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox12.resx">
+      <DependentUpon>AboutBox12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox13.resx">
+      <DependentUpon>AboutBox13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox14.resx">
+      <DependentUpon>AboutBox14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox15.resx">
+      <DependentUpon>AboutBox15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox16.resx">
+      <DependentUpon>AboutBox16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox17.resx">
+      <DependentUpon>AboutBox17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox18.resx">
+      <DependentUpon>AboutBox18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox19.resx">
+      <DependentUpon>AboutBox19.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox20.resx">
+      <DependentUpon>AboutBox20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox21.resx">
+      <DependentUpon>AboutBox21.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox22.resx">
+      <DependentUpon>AboutBox22.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox23.resx">
+      <DependentUpon>AboutBox23.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox24.resx">
+      <DependentUpon>AboutBox24.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox25.resx">
+      <DependentUpon>AboutBox25.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox3.resx">
+      <DependentUpon>AboutBox3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox5.resx">
+      <DependentUpon>AboutBox5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox7.resx">
+      <DependentUpon>AboutBox7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox8.resx">
+      <DependentUpon>AboutBox8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutBox9.resx">
+      <DependentUpon>AboutBox9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AP.resx">
+      <DependentUpon>AP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="backgroundBox1.resx">
+      <DependentUpon>backgroundBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cmdpad.resx">
+      <DependentUpon>cmdpad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="error1.resx">
+      <DependentUpon>error1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errorbox1.resx">
+      <DependentUpon>Errorbox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Explorer1.resx">
+      <DependentUpon>Explorer1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Explorer2.resx">
+      <DependentUpon>Explorer2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17.resx">
+      <DependentUpon>Form17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18.resx">
+      <DependentUpon>Form18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form19.resx">
+      <DependentUpon>Form19.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1old.resx">
+      <DependentUpon>Form1old.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form1Pad.resx">
+      <DependentUpon>form1Pad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20.resx">
+      <DependentUpon>Form20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22.resx">
+      <DependentUpon>Form22.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form23.resx">
+      <DependentUpon>Form23.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form24.resx">
+      <DependentUpon>Form24.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form25.resx">
+      <DependentUpon>Form25.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form26.resx">
+      <DependentUpon>Form26.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form27.resx">
+      <DependentUpon>Form27.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form28.resx">
+      <DependentUpon>Form28.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form29.resx">
+      <DependentUpon>Form29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form30.resx">
+      <DependentUpon>Form30.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form31.resx">
+      <DependentUpon>Form31.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form32.resx">
+      <DependentUpon>Form32.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form33.resx">
+      <DependentUpon>Form33.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form34.resx">
+      <DependentUpon>Form34.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form35.resx">
+      <DependentUpon>Form35.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form36.resx">
+      <DependentUpon>Form36.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form37.resx">
+      <DependentUpon>Form37.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form38.resx">
+      <DependentUpon>Form38.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form39.resx">
+      <DependentUpon>Form39.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form40.resx">
+      <DependentUpon>Form40.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form41.resx">
+      <DependentUpon>Form41.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form42.resx">
+      <DependentUpon>Form42.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form43.resx">
+      <DependentUpon>Form43.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form44.resx">
+      <DependentUpon>Form44.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form45.resx">
+      <DependentUpon>Form45.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form46.resx">
+      <DependentUpon>Form46.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form47.resx">
+      <DependentUpon>Form47.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form48.resx">
+      <DependentUpon>Form48.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form49.resx">
+      <DependentUpon>Form49.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form50.resx">
+      <DependentUpon>Form50.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form51.resx">
+      <DependentUpon>Form51.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form52.resx">
+      <DependentUpon>Form52.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form53.resx">
+      <DependentUpon>Form53.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form54.resx">
+      <DependentUpon>Form54.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form55.resx">
+      <DependentUpon>Form55.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form56.resx">
+      <DependentUpon>Form56.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form57.resx">
+      <DependentUpon>Form57.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form58.resx">
+      <DependentUpon>Form58.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form60.resx">
+      <DependentUpon>Form60.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_1pad.resx">
+      <DependentUpon>Form_1pad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ha.resx">
+      <DependentUpon>ha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loginz.resx">
+      <DependentUpon>Loginz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx" />
+    <EmbeddedResource Include="Restartform.resx">
+      <DependentUpon>Restartform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="seb_copy_web.resx">
+      <DependentUpon>seb_copy_web.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="theme_window.resx">
+      <DependentUpon>theme_window.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updaterform1.resx">
+      <DependentUpon>updaterform1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WASD.resx">
+      <DependentUpon>WASD.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.WMPLib" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My\MySettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MySettings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>
